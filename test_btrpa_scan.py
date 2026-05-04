@@ -11,8 +11,8 @@ from collections import deque
 
 import pytest
 
-# The module has a hyphen in its name, so we use importlib to import it.
-btrpa = importlib.import_module("btrpa-scan")
+# Import the actual package implementation.
+btrpa = importlib.import_module("btrpa_scan.cli")
 
 
 # ------------------------------------------------------------------

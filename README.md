@@ -466,7 +466,7 @@ python -m pytest test_btrpa_scan.py -v
 
 ## ESP32-S3 Firmware Companion
 
-An ESP-IDF firmware companion for ESP32-S3-WROOM-1-N16R8 development boards is available in [`firmware/`](firmware/). It preserves the Python scanner and adds an on-device NimBLE BLE observer that emits JSON Lines advertisements over the ESP-IDF console. See [`firmware/README.md`](firmware/README.md) for build, flash, console, and configuration notes.
+An ESP-IDF firmware companion for ESP32-S3-WROOM-1-N16R8 development boards is available in [`firmware/`](firmware/). It preserves the Python scanner and adds an on-device NimBLE BLE observer that emits JSON Lines advertisements over the ESP-IDF console, exposes recent detections over ESP32 SoftAP HTTP, and supports a Nordic-UART-shaped Direct BLE GATT read/notify transport for the Android companion in [`android/`](android/). The Android app restricts cleartext HTTP to the ESP32 local endpoint. See [`firmware/README.md`](firmware/README.md) and [`android/README.md`](android/README.md) for build, flash, transport, and configuration notes.
 
 ## Example Output
 

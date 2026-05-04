@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "E:/coding/my-projects/esp32-ble-tracker/firmware"
+    "cmake.sourceDirectory": "${workspaceFolder}/firmware",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.benchmarks/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Android / Gradle
+.gradle/
+build/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+local.properties
+
+# ESP-IDF firmware generated outputs
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/**/sdkconfig.old
+
+# IDE / local machine files
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*

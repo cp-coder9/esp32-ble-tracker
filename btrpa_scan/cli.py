@@ -34,10 +34,12 @@ try:
     from bleak import BleakScanner
     from bleak.backends.device import BLEDevice
     from bleak.backends.scanner import AdvertisementData
-except ImportError:
-    print("Error: 'bleak' is not installed.")
-    print("Install dependencies with:  pip install btrpa-scan")
-    sys.exit(1)
+    _BLEAK_IMPORT_ERROR = None
+except ImportError as e:
+    BleakScanner = None
+    BLEDevice = object
+    AdvertisementData = object
+    _BLEAK_IMPORT_ERROR = e
 
 try:
     from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
@@ -2347,6 +2349,10 @@ class BLEScanner:
 
     async def _scan_loop(self) -> float:
         """Run the BLE scanner and return elapsed seconds."""
+        if _BLEAK_IMPORT_ERROR is not None:
+            raise ImportError(
+                "'bleak' is not installed. Install dependencies with: pip install btrpa-scan"
+            ) from _BLEAK_IMPORT_ERROR
         if not self.quiet and not self.tui and not self.gui:
             self._print_header()
 
