@@ -1,17 +1,17 @@
-# btrpa-scan
+# gh0st-bLe
 
 <div align="center">
 
 ```text
-██████╗ ████████╗██████╗ ██████╗  █████╗       ███████╗ ██████╗ █████╗ ███╗   ██╗
-██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗      ██╔════╝██╔════╝██╔══██╗████╗  ██║
-██████╔╝   ██║   ██████╔╝██████╔╝███████║█████╗███████╗██║     ███████║██╔██╗ ██║
-██╔══██╗   ██║   ██╔══██╗██╔═══╝ ██╔══██║╚════╝╚════██║██║     ██╔══██║██║╚██╗██║
-██████╔╝   ██║   ██║  ██║██║     ██║  ██║      ███████║╚██████╗██║  ██║██║ ╚████║
-╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝      ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+ ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗      ██████╗ ██╗     ███████╗
+██╔════╝ ██║  ██║██╔═████╗██╔════╝╚══██╔══╝      ██╔══██╗██║     ██╔════╝
+██║  ███╗███████║██║██╔██║███████╗   ██║   █████╗██████╔╝██║     █████╗  
+██║   ██║██╔══██║████╔╝██║╚════██║   ██║   ╚════╝██╔══██╗██║     ██╔══╝  
+╚██████╔╝██║  ██║╚██████╔╝███████║   ██║         ██████╔╝███████╗███████╗
+ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝         ╚═════╝ ╚══════╝╚══════╝
 ```
 
-### BLE reconnaissance • RPA resolution • ESP32 field tracking • radar-style visualization
+### BLE reconnaissance • RPA resolution • ESP32 ghost tracking • radar-style visualization
 
 ![Python](https://img.shields.io/badge/Python-3.9+-00ff88?style=for-the-badge&logo=python&logoColor=white)
 ![BLE](https://img.shields.io/badge/BLE-RPA%20Scanner-00d4ff?style=for-the-badge&logo=bluetooth&logoColor=white)
@@ -21,7 +21,24 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
-**Built by David Kennedy / [@HackingDave](https://twitter.com/HackingDave) at [TrustedSec](https://www.trustedsec.com)**
+**Inspired by David Kennedy / [@HackingDave](https://twitter.com/HackingDave) at [TrustedSec](https://www.trustedsec.com)**
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  ▄████▄   ██▓███        ▄████▄   ▒█████  ▓█████▄ ▓█████     │
+│ ▒██▀ ▀█  ▓██░  ██▒     ▒██▀ ▀█  ▒██▒  ██▒▒██▀ ██▌▓█   ▀     │
+│ ▒▓█    ▄ ▓██░ ██▓▒     ▒▓█    ▄ ▒██░  ██▒░██   █▌▒███       │
+│ ▒▓▓▄ ▄██▒▒██▄█▓▒ ▒     ▒▓▓▄ ▄██▒▒██   ██░░▓█▄   ▌▒▓█  ▄     │
+│ ▒ ▓███▀ ░▒██▒ ░  ░ ██▓ ▒ ▓███▀ ░░ ████▓▒░░▒████▓ ░▒████▒    │
+│ ░ ░▒ ▒  ░▒▓▒░ ░  ░ ▒▓▒ ░ ░▒ ▒  ░░ ▒░▒░▒░  ▒▒▓  ▒ ░░ ▒░ ░    │
+│   ░  ▒   ░▒ ░      ░▒    ░  ▒     ░ ▒ ▒░  ░ ▒  ▒  ░ ░  ░    │
+│ ░        ░░        ░   ░        ░ ░ ░ ▒   ░ ░  ░    ░       │
+│ ░ ░                ░   ░ ░          ░ ░     ░       ░  ░    │
+│ ░                  ░   ░                  ░                 │
+│                                                              │
+│                 BUILT BY: cp-c0d3r9                         │
+└──────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
@@ -29,7 +46,7 @@
 
 ## ⚡ What is this?
 
-`btrpa-scan` is a Bluetooth Low Energy reconnaissance and tracking toolkit for discovering nearby BLE devices, resolving privacy-randomized Resolvable Private Addresses (RPAs) with Identity Resolving Keys (IRKs), estimating proximity from RSSI, and visualizing detections through terminal, browser, Android, and ESP32 companion workflows.
+`gh0st-bLe` is a Bluetooth Low Energy reconnaissance and tracking toolkit for discovering nearby BLE devices, resolving privacy-randomized Resolvable Private Addresses (RPAs) with Identity Resolving Keys (IRKs), estimating proximity from RSSI, and visualizing detections through terminal, browser, Android, and ESP32 companion workflows.
 
 It started as a Python BLE scanner. It now includes:
 

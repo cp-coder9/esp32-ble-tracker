@@ -1,6 +1,6 @@
-# BTRPA Radar Android APK
+# gh0st-bLe Android APK
 
-Native Android implementation of the ESP32 BLE tracker UI and data model.
+Native Android implementation of the gh0st-bLe ESP32 BLE tracker UI and data model.
 
 ## Build
 

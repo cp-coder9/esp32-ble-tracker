@@ -1,6 +1,6 @@
-# btrpa-scan ESP32-S3 firmware
+# gh0st-bLe ESP32-S3 firmware
 
-This directory is an ESP-IDF companion firmware project for ESP32-S3-WROOM-1-N16R8 development boards. It preserves the original on-device BLE observer and exposes recent detections to the Android app over ESP32 SoftAP HTTP and Direct BLE GATT read/notify transport selected at runtime with a safe mode changer.
+This directory is an ESP-IDF companion firmware project for ESP32-S3-WROOM-1-N16R8 development boards. It preserves the original on-device BLE observer and exposes recent detections to the gh0st-bLe Android app over ESP32 SoftAP HTTP and Direct BLE GATT read/notify transport selected at runtime with a safe mode changer.
 
 ## Current scope
 

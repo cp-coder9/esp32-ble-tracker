@@ -1,6 +1,6 @@
-# BTRPA ESP32-S3 web loader
+# gh0st-bLe ESP32-S3 web loader
 
-Static browser flasher for the ESP32-S3 firmware using ESP Web Tools and Web Serial in Chrome/Edge.
+Static browser flasher for the ESP32-S3 gh0st-bLe firmware using ESP Web Tools and Web Serial in Chrome/Edge.
 
 ## Files
 
